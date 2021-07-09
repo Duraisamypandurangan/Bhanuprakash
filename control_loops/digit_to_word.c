@@ -5,10 +5,10 @@ int main(void)
 	int count=0;
 	char Sstr[50];
 	printf("Enter the number :");
-	fgets(Sstr,50,stdin);
+	fgets(Sstr,50,stdin);//read number as string
      do
 	{
-		switch(Sstr[count])//get last digit and print the word using case statement
+		switch(Sstr[count])//get one by one number by changing subscript value of sstr[]
 		{
 			case '0':
 				printf("Zero ");
