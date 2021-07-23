@@ -46,11 +46,12 @@ struct employe
 ********************************************************************************/
 int main(void)
 {
+	//Variable Declarations
 	struct employe emp[50];
 	int i,N;
 	printf("Enter the number of employee :");
-	scanf("%d",&N);
-	for(i=0; i<N; i++)
+	scanf("%d",&N);//Read Input For Number of employees
+	for(i=0; i<N; i++)//Read Data of all employees
 	{
 		printf("Enter the %d employee Name: ",i);
 		scanf(" %s",emp[i].name);
@@ -59,11 +60,11 @@ int main(void)
 		printf("Enter the %d Employee salary :",i);
 		scanf("%d",&emp[i].salary);
 	}
-	printf("\n\n--------------------------------Employee details--------------------------------\n");
+	printf("\n\n---------------------Employee details---------------------\n");
 	printf("\t\t\tEmployee_Name\t Employee_Id\t Employee_Salary\n\n");
 	for(i=0; i<N; i++)
 	{
-		printf("\t\t\t%s\t\t%.3d\t\t%.5d\n\n",emp[i].name,emp[i].id,emp[i].salary);
+	printf("\t\t\t%s\t\t%.3d\t\t%.5d\n\n",emp[i].name,emp[i].id,emp[i].salary);
 	}
 	return 0;
 }
