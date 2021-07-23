@@ -28,7 +28,7 @@ union.
 };
 union student
 {
-	struct record data;
+	struct record data;//struct inside union
 	int marks;
 	char grade;
 };
@@ -54,10 +54,12 @@ union student
 ********************************************************************************/
 int main(void)
 {
-	union student stu;
+	union student stu;//Declare union type variable
+	//Assign values for each  variables
 	strcpy(stu.data.name,"Krish");
 	stu.data.rollno=108;
-	stu.grade='A';
+	//we assign either grade or marks for student using union type
+	stu.grade='A'
 	printf("Name=%s\nRollNo=%d\nGrade=%c\n",stu.data.name,stu.data.rollno,stu.grade);
 	return 0;
 }
