@@ -57,11 +57,13 @@ int Add_2Num(int Num1, int Num2)
  ******************************************************************************/
 int main(void)
 {
-	int Num1,Num2;
+	int Num1,Num2; // Declaration of Variables
+	//Read Inputs
 	printf("Enter the values for Num1 :"); 
 	scanf("%d",&Num1);
 	printf("Enter the values for Num2 :"); 
 	scanf("%d",&Num2);
+	//Function Call to Add two numbers and print those values
 	printf("The Sum is %d + %d = %d\n",Num1,Num2,Add_2Num(Num1,Num2));
 	return 0;
 }
