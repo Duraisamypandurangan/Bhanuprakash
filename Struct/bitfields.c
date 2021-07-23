@@ -1,9 +1,9 @@
 /*******************************************************************************
 ** COPYRIGHT (C) 2021 Infiquity. ALL RIGHTS RESERVED.
 --------------------------------------------------------------------------------
-FILE NAME  :Demo.c
+FILE NAME  :Bitfields.c
 
-DESCRIPTION:This file contains functions Demo.
+DESCRIPTION:This file contains functions to know how to use bitfields
 *******************************************************************************/
 
 /*******************************************************************************
