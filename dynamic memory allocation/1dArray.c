@@ -59,13 +59,13 @@ int main(void)
         } 
  
 	printf("Enter the array elements \n");
-	for(i=0;i<n;i++)
+	for(i=0;i<n;i++) //Read Array Elements
 	{
 		printf("ptr[%d] = ",i);
 		scanf("%d",&(*(ptr+i)));
 	}
 	printf("1-D array Elements are :\n");
-	for(i=0;i<n;i++)
+	for(i=0;i<n;i++)//Display Array Elements
 	{
 		printf("ptr[%d]= %d  ",i,*(ptr+i));
 	}
