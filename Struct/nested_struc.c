@@ -30,7 +30,7 @@ struct student
 {
 	char name[20];
 	int roll_no;
-	struct date dob;
+	struct date dob;//stuct variable inside struct
 };
 /*******************************************************************************
 ** -- Macros --
@@ -54,12 +54,12 @@ struct student
 ********************************************************************************/
 int main(void)
 {
-	struct student stu;
+	struct student stu;//Variable Declaration
 	strcpy(stu.name,"Ram");
 	stu.roll_no=100;
-	stu.dob.day=10;
-	stu.dob.month=10;
-	stu.dob.year=1997;
+	stu.dob.day=10;//Assigning values for Nested Variables
+	stu.dob.month=10;//Assigning values for Nested Variables
+	stu.dob.year=1997;//Assigning values for Nested Variables
 	printf("The %s Roll_no is %d\n",stu.name,stu.roll_no);
 	printf("the %s Born in %d %d %d\n",stu.name,stu.dob.day,stu.dob.month,stu.dob.year);
 	return 0;
