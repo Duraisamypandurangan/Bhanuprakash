@@ -41,9 +41,9 @@ DESCRIPTION:This file contains macro to find max of two numbers
  ******************************************************************************/
 int main(void)
 {
-	int num1=10,num2=20,max;
+	int num1=10,num2=20,max;//Declare and Initialize the Variable
 	printf("num1=%d\nnum2=%d\n",num1,num2);
-	max=max(num1,num2);
+	max=max(num1,num2);//Macro call to find max of number
     printf("maximum num is %d\n",max);
     return 0;
 }
