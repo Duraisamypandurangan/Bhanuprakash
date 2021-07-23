@@ -39,11 +39,11 @@ void displayBits(int x);
 
 /* -----------------------------------------------------------------------------
 
-FUNCTION NAME:Init
+FUNCTION NAME:displayBits
 
-DESCRIPTION: This function initializes variables
+DESCRIPTION: This function is to print binary format of integer
 
-PARAMETER DESCRIPTION: void
+PARAMETER DESCRIPTION: int x
 
 RETURN VALUE: void
 
@@ -70,10 +70,10 @@ int main(void)
 {
     int num,i,mask;
     printf("Enter a number : ");
-    scanf("%d",&num);
-    displayBits(num);
+    scanf("%d",&num);//read input
+    displayBits(num);//print in binary before doing 2's complement
     printf("Two's complement is : \n");
-    displayBits(~num+1);
-    return 0;
+    displayBits(~num+1);//find 2's complement and function call to print in binary
+    return 0;//for succesfull execution
 }
 
