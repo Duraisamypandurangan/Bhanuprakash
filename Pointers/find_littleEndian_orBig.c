@@ -39,11 +39,11 @@ endian.
 
 /* -----------------------------------------------------------------------------
 
-FUNCTION NAME:Init
+FUNCTION NAME:memrep
 
-DESCRIPTION: This function initializes variables
+DESCRIPTION: This function is to represent memory
 
-PARAMETER DESCRIPTION: void
+PARAMETER DESCRIPTION: char *c int n
 
 RETURN VALUE: void
 
