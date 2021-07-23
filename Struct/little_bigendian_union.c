@@ -42,14 +42,15 @@ or big endian using union
 ********************************************************************************/
 int main(void)
 {
+   //Declare Union type localy
    union
    { 
    	   int i;
        char c[sizeof(int)];
    } x;
    
-   x.i = 1;
-   if(x.c[0] == 1)
+   x.i = 1;//x.i initialize with 1
+   if(x.c[0] == 1)//check lower address if true little endian else big endian
    	   printf("little-endian\n");
    else
    	   printf("big-endian\n");
