@@ -38,13 +38,14 @@ DESCRIPTION:This file contains to check the given number obtained in power of 2
 
 /* -----------------------------------------------------------------------------
 
-FUNCTION NAME:
+FUNCTION NAME:main
 
-DESCRIPTION: 
+DESCRIPTION:fist function called by Operating system,it includes that to find
+	    given number is obtained in power of 2 or not
 
-PARAMETER DESCRIPTION: 
+PARAMETER DESCRIPTION: void
 
-RETURN VALUE: 
+RETURN VALUE: return 0
 
 ----------------------------------------------------------------------------- */
 
