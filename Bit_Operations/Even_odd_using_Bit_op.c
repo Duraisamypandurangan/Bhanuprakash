@@ -38,13 +38,13 @@ DESCRIPTION:This file contains to check given integer is Even or Odd
 
 /* -----------------------------------------------------------------------------
 
-FUNCTION NAME:
+FUNCTION NAME:main
 
-DESCRIPTION: 
+DESCRIPTION: function to find even or odd usng Bit operators 
 
-PARAMETER DESCRIPTION: 
+PARAMETER DESCRIPTION: void
 
-RETURN VALUE: 
+RETURN VALUE: return 0
 
 ----------------------------------------------------------------------------- */
 
