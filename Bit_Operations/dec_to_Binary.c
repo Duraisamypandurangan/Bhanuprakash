@@ -71,9 +71,10 @@ void Displaybits(int num)
 int main(void)
 {
 	unsigned int num;
+	//Read Input
 	printf("Enter the number :");
 	scanf("%d",&num);
-	Displaybits(num);
+	Displaybits(num);//Function call to print integer in Binary Format
 
 	return 0;
 }
