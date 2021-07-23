@@ -1,7 +1,7 @@
 /*******************************************************************************
 ** COPYRIGHT (C) 2021 Infiquity. ALL RIGHTS RESERVED.
 --------------------------------------------------------------------------------
-FILE NAME  :fpointer_2Num_Addition
+FILE NAME  :fpointer_2Num_Addition.c
 DESCRIPTION:This file contains Function pointer to add two numbers.
 *******************************************************************************/
 
