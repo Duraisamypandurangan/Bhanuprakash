@@ -20,7 +20,7 @@ size of operator.
 /*******************************************************************************
 ** -- Global Data Declarations --
 *******************************************************************************/
-struct student
+struct student //Create struct Data Type
 {
     int roll;
     char name[100];
@@ -47,8 +47,8 @@ struct student
  ******************************************************************************/
 int main(void)
 {
-struct student *ptr=0;
-ptr++;
+struct student *ptr=0;//Declare and Initialize 0 for Struct variable 
+ptr++;//Increment the address
 printf("The size of stucture variable %d \n",ptr);
 return 0;
 }
