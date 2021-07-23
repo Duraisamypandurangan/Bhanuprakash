@@ -38,13 +38,13 @@ DESCRIPTION:This file contains to check 4th bit of integer is High or Low
 
 /* -----------------------------------------------------------------------------
 
-FUNCTION NAME:
+FUNCTION NAME:main
 
-DESCRIPTION: 
+DESCRIPTION: funtion to get 4th bit of integer
 
-PARAMETER DESCRIPTION: 
+PARAMETER DESCRIPTION: void
 
-RETURN VALUE: 
+RETURN VALUE: return 0
 
 ----------------------------------------------------------------------------- */
 
