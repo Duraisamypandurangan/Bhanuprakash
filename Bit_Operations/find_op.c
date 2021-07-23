@@ -38,24 +38,15 @@ DESCRIPTION:This file contains functions Demo.
 
 /* -----------------------------------------------------------------------------
 
-FUNCTION NAME:Init
+FUNCTION NAME:main
 
-DESCRIPTION: This function initializes variables
+DESCRIPTION: This function is to find output for a ^ a
 
 PARAMETER DESCRIPTION: void
 
-RETURN VALUE: void
+RETURN VALUE: return 0
 
 ----------------------------------------------------------------------------- */
-void Init(void)
-{
-   /*Initialize Variables specific to Demo */
-
-	
-
-}
-
-/* ----------------------------------------------------------------------------*/
 
 /*******************************************************************************
 **--main()Function--
@@ -63,5 +54,5 @@ void Init(void)
 void main(void)
 {
 	int a;
-	printf("%d\n",a^a);
+	printf("%d\n",a^a); //Xor operation for same value
 }	
